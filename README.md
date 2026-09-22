@@ -1,5 +1,7 @@
 # MovieMagnet
 
+<img width="1920" height="1080" alt="Screenshot 2023-12-23 154301" src="https://github.com/user-attachments/assets/c82e30e6-14ac-4c2a-9af9-9e259bacf295" />
+
 MovieMagnet is a responsive, Netflix-inspired web application built with PHP and MySQL that allows users to browse a curated catalog of movies and TV shows, view detailed information, and watch trailers.
 
 ## ✨ Features
@@ -9,10 +11,14 @@ MovieMagnet is a responsive, Netflix-inspired web application built with PHP and
 * **Base64 Image Rendering:** Movie posters are stored directly in the database as `LONGBLOB` data and rendered on the frontend using Base64 encoding.
 * **Authentication Interface:** Includes a stylized "Sign In" page template for future user authentication integration.
 
+<img width="1920" height="1080" alt="Screenshot 2023-12-23 154345" src="https://github.com/user-attachments/assets/9358ac20-a16e-4090-b963-751fab10f372" />
+
 ## 🛠️ Tech Stack
 * **Frontend:** HTML5, CSS3, FontAwesome (Icons)
 * **Backend:** PHP
 * **Database:** MySQL (`Dump20231223.sql`)
+
+<img width="596" height="1031" alt="Screenshot 2023-12-23 154409" src="https://github.com/user-attachments/assets/a66e999b-4107-4cab-bd34-a8c71cfe175a" />
 
 ## 🗂️ Database Structure
 The application uses a MySQL database named `movie_list` containing a single `movies` table. The table stores the following columns:
@@ -22,6 +28,8 @@ The application uses a MySQL database named `movie_list` containing a single `mo
 * `movieDescription` (LONGTEXT)
 * `movieRating` & `movieReleaseYear` (VARCHAR)
 * `movieTrailer` (VARCHAR - stores the YouTube embed URL)
+
+<img width="1920" height="1080" alt="Screenshot 2023-12-23 154224" src="https://github.com/user-attachments/assets/5f04bf80-5e45-44a2-b464-39c91029ca85" />
 
 ## 🚀 Getting Started
 
